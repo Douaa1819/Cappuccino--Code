@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    padding-top: 20px;
+}
+.body-location{
+    background-color: #DBD8C5;
+}
+.nav a{
+    color:white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-right: 20px;;
+    }
+    
+    .header-loca{
+
+        padding: 45px;
+        font-family: sans-serif;
+        color:rgb(255, 255, 255);
+        font-size:x-large;
+    }
+    .header-loca pre{
+        margin-top: 30px;
+        color: #7F4A20;
+         font-size: 20px;
+       font-style: normal;
+     font-weight: 700;
+      line-height: normal;
+    }
+    .for-home2{
+        background-image: url(foter2.png);
+       
+        position: relative;
+      background-size: cover;
+      }
+     
+    .for-pages{
+    
+        background-size: cover;
+        background-position: center;
+        justify-content:center;
+        position: relative;
+      }
+      
+      .background2 {
+        background: transparent;
+        color: white;
+        padding: 20px;
+        display: flex;
+        gap: 280px;
+        justify-content: center;
+        align-items: center;
+        padding-top: 150px;
+        position: relative;
+        
+        
+      }
+      .section-header{
+        margin-top: 6%;
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        background-color: #DBD8C5;
+    }
+      
+    
+      .list-group ul{
+     
+        margin-left: 300px;
+        
+       }
+       .contact-group2 ul li a{
+         text-decoration: none;
+         color: white;
+         
+       }
+       .contact-group2 ul li{
+        margin-top: 30px;
+        
+      }
+      .list-group ul li a{
+        text-decoration: none;
+        color: white;
+      }
+      .list-group ul li {
+        margin-top: 30px;
+      }
+       .contact-group li{
+         padding-bottom: 4%;
+       }
+       .contact-group a{
+         text-decoration: none;
+         color: #fff;
+       }
+       .list-group a{
+         text-decoration: none;
+         color: #fff;
+       }
+       li {
+         list-style: none;
+       }
