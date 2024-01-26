@@ -41,7 +41,7 @@ header {
       line-height: normal;
     }
     .for-home2{
-        background-image: url(foter2.png);
+        background-image: url('../img/foter2.png');
        
         position: relative;
       background-size: cover;

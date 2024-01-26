@@ -23,7 +23,7 @@ header {
     
     
 .contact-img{
-    background-image: url(contact.png);
+    background-image: url('../img/contact.png');
     background-size: cover;
 }
 .frame {
@@ -62,7 +62,7 @@ header {
     left: 0;
     width: 100%;
     height: 100vh;
-    background-image: url(contact.png);
+    background-image: url('../img/contact.png');
     background-size: cover;
 }
 .contact_page h1{
@@ -131,7 +131,7 @@ header {
 
 
   .for-home2{
-    background-image: url(foter2.png);
+    background-image: url('../img/foter2.png');
    
     position: relative;
   background-size: cover;
