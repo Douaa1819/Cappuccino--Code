@@ -53,12 +53,16 @@ margin-top: 50px;
     background-color: #ffffff;
 color: black;
 }
-.nav a{
-color:white;
-text-decoration: none;
-font-family: sans-serif;
-font-weight: 600;
-margin-right: 20px;;
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+.nav a:hover {
+  text-decoration: underline; 
 }
 .overlay-text p{
 margin-top:12px;

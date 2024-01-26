@@ -21,7 +21,9 @@ header {
     margin-right: 20px;;
     }
     
-    
+    .nav a:hover {
+      text-decoration: underline; 
+    } 
 .contact-img{
     background-image: url('../img/contact.png');
     background-size: cover;
