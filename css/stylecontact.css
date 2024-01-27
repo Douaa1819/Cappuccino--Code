@@ -80,7 +80,7 @@ header {
     margin-top: 0;
 }
 .contact_page input {
-    width: 35%;
+    width: 25%;
     border: none;
     height: 40px;
    margin-top: 10px;
@@ -88,8 +88,7 @@ header {
     margin-bottom: 50px;
     padding-left: 25px;
     background-color: #ffe9cfe7;
-    outline: none;
-    border-radius: 20px;
+    border-radius: 10px;
     color: #000000;
     
   }
@@ -117,11 +116,12 @@ header {
   .btn {
 
     background-color: #8b4f2dd7;
-    border-radius: 20px;
+    border-radius: 10px;
     color: #59230b;
-    width: 250PX;
+    width: 100PX;
     height: 40PX;
     margin-left: 1030px;
+    margin-bottom: 60px;
 
   }
   .btn:hover{

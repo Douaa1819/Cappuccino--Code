@@ -180,36 +180,64 @@ font-weight: 400;
 }
 
 .menu-box h1{
-    color: #903711;
+    color: #5e3d2fe2;
     text-align: center;
     font-size: 50px;
     padding-top: 50px;
-    margin-top: 0%
+    margin-top: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.menu-box h4{
-    color: rgb(117, 74, 45);
-    font-size: 30px;
-    margin-right: 78%; 
-}
+
 .menu1{
     margin: 0 4%;
     display: flex;
     justify-content: space-between;   
 }
 .row{
-    flex-basis: 20%;
-    background:#734A39;
-    width: 220px;
-    margin-bottom: 50px;
-    border-radius: 20px;     
-    display: flex;
-    display: inline-block;
-    color: white; 
-    
+     flex-basis: 20%;
+  background: #5e3d2fe2;
+  width: 290px;
+  height: 420px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  display: flex;
+  display: inline-block;
+  color: white;
+  padding: 20px; /* Add some padding */
+  flex-direction: column; /* Align items vertically */
+  align-items: center; /* Center items horizontally */
+  text-align: center; /* Center the text */
 }
-.row img{
-    border-radius: 20px;
+
+.row img {
+  max-width: 100%; /* Ensure images are responsive */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Optional: to match the overall style */
+  margin-bottom: 10px; /* Add space below the image */
 }
+
+.row h3 {
+  font-size: 20px; /* Adjust the font size */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+   /* Spacing below the heading */
+}
+
+.row p {
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /* Adjust the font size for paragraph */
+  margin-bottom: 15px;
+  display: flex; /* Spacing below the paragraph */
+}
+
+.row h5 {
+  font-size: 18px; /* Adjust the font size for price */
+  font-weight: bold; /* Make the price bold */
+  display: flex; 
+  justify-content: center;/* Spacing at the top */
+}
+
 .opnion-home{
     top: 0;
     left: 0;
@@ -236,21 +264,26 @@ font-weight: 400;
 .opinion-txt-box{
     margin: 4%;
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between; 
+     
 }
 .opinion-text{
     
-    background:rgba(88, 49, 21, 0.6); 
+    background:#5e3d2fe2; 
     margin-bottom: 50px;      
     display: flex;
     display: inline-block;
-    padding: 10px 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px 50px;
     margin-left:100px ;
     color: white;
   
 }
 .opinion-txt-box h3{ 
     color: rgb(21, 186, 21);
+}
+.opinion-txt-box h2{ 
+ font-size: 23px;
 }
 .map{
   width: 100%;
@@ -344,7 +377,8 @@ font-weight: 400;
     text-align: center;
     font-size: 50px;
     padding-top: 50px;
-    margin-top: 0%
+    margin-top: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .menu2{
@@ -352,27 +386,55 @@ font-weight: 400;
     display: flex;
     justify-content: space-between;   
 }
-.row2{
-    flex-basis: 20%;
-    background:#B77E667A;
-    width: 290px;
-    height: 350px;
-    margin-bottom: 50px;
-    border-radius: 20px;     
-    display: flex;
-    display: inline-block;
-    color: white; 
-    
+.row2 {
+  flex-basis: 20%;
+  background: #B77E667A;
+  width: 290px;
+  height: 420px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  display: flex;
+  display: inline-block;
+  color: white;
+  padding: 20px; /* Add some padding */
+  flex-direction: column; /* Align items vertically */
+  align-items: center; /* Center items horizontally */
+  text-align: center; /* Center the text */
 }
 
-
-.row2 img{
-    border-radius: 20px;
+.row2 img {
+  max-width: 100%; /* Ensure images are responsive */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Optional: to match the overall style */
+  margin-bottom: 10px; /* Add space below the image */
 }
+
+.row2 h2 {
+  font-size: 20px; /* Adjust the font size */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+   /* Spacing below the heading */
+}
+
+.row2 p {
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /* Adjust the font size for paragraph */
+  margin-bottom: 15px;
+  display: flex; /* Spacing below the paragraph */
+}
+
+.row2 h5 {
+  font-size: 18px; /* Adjust the font size for price */
+  font-weight: bold; /* Make the price bold */
+  display: flex; 
+  justify-content: center;/* Spacing at the top */
+}
+
 
 
 .for-home2{
-    background-image: url(../img/foter2.png);
+    background-image: url("../img/foter2.png");
    
     position: relative;
   background-size: cover;
@@ -396,8 +458,7 @@ font-weight: 400;
     align-items: center;
     padding-top: 150px;
     position: relative;
-    
-    
+
   }
   
   /*  */
@@ -453,20 +514,21 @@ font-weight: 400;
     gap: 80px;
 }
 .contaire_herue2 p,.contaire_herue h2 {
-    font-family: 'Courier New', Courier, monospace;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 .contaire_herue2 p{
-    font-size: 25px;
+    font-size: 29px;
     color:#806666;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
 .somaine2{
 margin-bottom: 6px;
 }
 .opeintext2{
 border-radius: 10px;
-
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 color: #806666;
 padding: 34px 44px;
 font-size: 40px;
