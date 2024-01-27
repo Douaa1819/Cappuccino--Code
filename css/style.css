@@ -79,7 +79,8 @@ line-height: 144.5%;
 .image1{
     height: 100vh; width:100% ;
      background-position: 
-     center;background-size: cover;background-repeat: no-repeat;
+     center;background-size: cover;
+     background-repeat: no-repeat;
 }
 .section2{
    background-image: url('../img/hom2.png'); 
@@ -104,7 +105,7 @@ font-weight: 600;
 line-height: normal;
 
 }
-/*  */
+/*  ------------------------------------ Opening Hours--------------------------------------------------------------*/
 .text{
 
     display: flex;
@@ -193,6 +194,8 @@ font-weight: 400;
     display: flex;
     justify-content: space-between;   
 }
+
+/*----------------------------Our Menu----------------------------------------------*/
 .row{
      flex-basis: 20%;
   background: #5e3d2fe2;
@@ -203,41 +206,45 @@ font-weight: 400;
   display: flex;
   display: inline-block;
   color: white;
-  padding: 20px; /* Add some padding */
-  flex-direction: column; /* Align items vertically */
-  align-items: center; /* Center items horizontally */
-  text-align: center; /* Center the text */
+  padding: 20px; 
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center;
 }
 
 .row img {
-  max-width: 100%; /* Ensure images are responsive */
-  height: auto; /* Maintain aspect ratio */
-  border-radius: 10px; /* Optional: to match the overall style */
-  margin-bottom: 10px; /* Add space below the image */
+  max-width: 100%; 
+  height: auto; 
+  border-radius: 10px; 
+  margin-bottom: 10px; 
 }
 
 .row h3 {
-  font-size: 20px; /* Adjust the font size */
+  font-size: 20px; 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
   justify-content: center;
-   /* Spacing below the heading */
+
 }
 
 .row p {
   font-size: 14px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif; /* Adjust the font size for paragraph */
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
   margin-bottom: 15px;
-  display: flex; /* Spacing below the paragraph */
+  display: flex; 
 }
 
 .row h5 {
-  font-size: 18px; /* Adjust the font size for price */
-  font-weight: bold; /* Make the price bold */
+  font-size: 18px; 
+  font-weight: bold; 
   display: flex; 
-  justify-content: center;/* Spacing at the top */
+  justify-content: center;
 }
 
+
+
+
+/*--------------------------------------------------------------------Opinion-------------------------------------------------------*/
 .opnion-home{
     top: 0;
     left: 0;
@@ -310,6 +317,12 @@ font-weight: 400;
     
     
 }
+
+
+
+
+
+/*---------------------------------------------foter--------------------------------------*/
 .for-home{
     background-image: url(../img/fooder.png);
     width: 100%;
@@ -396,39 +409,39 @@ font-weight: 400;
   display: flex;
   display: inline-block;
   color: white;
-  padding: 20px; /* Add some padding */
-  flex-direction: column; /* Align items vertically */
-  align-items: center; /* Center items horizontally */
-  text-align: center; /* Center the text */
+  padding: 20px;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center;
 }
 
 .row2 img {
-  max-width: 100%; /* Ensure images are responsive */
-  height: auto; /* Maintain aspect ratio */
-  border-radius: 10px; /* Optional: to match the overall style */
-  margin-bottom: 10px; /* Add space below the image */
+  max-width: 100%; 
+  height: auto; 
+  border-radius: 10px; 
+  margin-bottom: 10px; 
 }
 
 .row2 h2 {
-  font-size: 20px; /* Adjust the font size */
+  font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
   justify-content: center;
-   /* Spacing below the heading */
+
 }
 
 .row2 p {
   font-size: 14px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif; /* Adjust the font size for paragraph */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-bottom: 15px;
-  display: flex; /* Spacing below the paragraph */
+  display: flex; 
 }
 
 .row2 h5 {
-  font-size: 18px; /* Adjust the font size for price */
-  font-weight: bold; /* Make the price bold */
+  font-size: 18px; 
+  font-weight: bold; 
   display: flex; 
-  justify-content: center;/* Spacing at the top */
+  justify-content: center;
 }
 
 
